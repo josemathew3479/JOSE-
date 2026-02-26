@@ -1,0 +1,16 @@
+[gd_scene_format=text]
+[resource]
+config_version = 5
+CVVersions = {"gdscript": 1}
+
+[application]
+config/name="Player AI Prototype"
+config/version="0.1.0"
+run/main_scene="res://main.tscn"
+
+[physics]
+2d/default_gravity = 980.0
+
+[rendering]
+textures/canvas_textures/default_texture_filter = 0
+textures/vram_compression/import_etc2_astc = true
