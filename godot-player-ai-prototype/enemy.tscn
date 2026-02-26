@@ -1,0 +1,16 @@
+[node]
+type = Scene
+
+[enemy]
+type = CharacterBody2D
+
+[collision_shape]
+type = CollisionShape2D
+shape = RectangleShape2D {}
+
+[sprite]
+type = Sprite2D
+texture = "res://path/to/your/sprite.png"
+
+[detection_area]
+type = DetectionArea
